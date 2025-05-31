@@ -1,0 +1,13 @@
+[project]
+name = "python-scripts"
+version = "0.1.0"
+description = "My self excuting python scripts"
+authors = [
+    { name = "Paul Watts", email = "paulfwatts@outlook.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "psutil>=7.0.0",
+    "textual>=3.2.0",
+]
